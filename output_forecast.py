@@ -60,7 +60,7 @@ async def send_message():
         print( )
     list_files = []
     list_imgs = []
-    img_japan = cv2.imread('1.png')
+    img_japan = cv2.imread('japan.png')
     for i in range(len(Codes)):
         temp_code = Codes[i]
         for j in range(118):
