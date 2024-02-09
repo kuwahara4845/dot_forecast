@@ -11,6 +11,7 @@
 
 ## 詳しい説明
 - 気象庁からJsonを読み込み生成するため、他の気象予報士の予想が違う可能性があるため注意
+- ['https://www.jma.go.jp/bosai/forecast/data/forecast/010000.json']
 
 以下を参考にしました。ありがとうございます。
 https://mindtech.jp/?p=1754
