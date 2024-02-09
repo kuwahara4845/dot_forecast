@@ -34,7 +34,7 @@ channel_sent = None
 # 起動時に動作する処理
 
 #@tasks.loop(minutes=1)
-@tasks.loop(hours=24)
+@tasks.loop(hours=12)
 async def send_message():
     url = 'https://www.jma.go.jp/bosai/forecast/data/forecast/010000.json'
     csv_data = pd.read_csv('publishingOffice.csv', encoding='utf-8')
